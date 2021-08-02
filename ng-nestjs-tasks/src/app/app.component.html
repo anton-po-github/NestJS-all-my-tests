@@ -1,0 +1,8 @@
+<div *ngFor="let item of items">
+  <button (click)="getOneTask(item.id)">get ONE Task</button>
+  <button (click)="updateOneTask(item.id)">update ONE Task</button>
+  <button (click)="deleteOneTask(item.id)">delete ONE Task</button>
+</div>
+<br />
+<br />
+<button (click)="createTask()">create Task</button>
