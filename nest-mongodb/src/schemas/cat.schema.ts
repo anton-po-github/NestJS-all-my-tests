@@ -16,7 +16,6 @@ export class Cat {
 
   /* @Prop([String])
   tags: string[];
-
   @Prop({ required: true })
   name: string; */
 }

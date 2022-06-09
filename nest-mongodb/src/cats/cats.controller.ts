@@ -17,8 +17,9 @@ export class CatsController {
     return this.catsService.findAll();
   }
 
-  /*   @Delete('/:id')
+  @Delete('/:id')
   async deleteOneCat(@Param('id') id: string) {
-    return this.catsService.deleteOneCat(id);
-  } */
+    console.log(id);
+    //  return this.catsService.deleteOneCat(id);
+  }
 }

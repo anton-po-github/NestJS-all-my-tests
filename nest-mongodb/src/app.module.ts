@@ -29,10 +29,10 @@ import { CatsModule } from './cats/cats.module';
     CatsModule,
   ],
   /*  imports: [
-    MongooseModule.forRoot('mongodb://localhost/test', {
+    MongooseModule.forRoot('mongodb://localhost:27017/test', {
       connectionName: 'cats',
     }), */
-  /* MongooseModule.forRoot('mongodb://localhost/users', {
+  /* MongooseModule.forRoot('mongodb://localhost:27017/users', {
       connectionName: 'users',
     }) 
     ,
